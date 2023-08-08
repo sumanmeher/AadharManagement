@@ -18,8 +18,7 @@
 
 	while (itr.hasNext()) {
 		AadharDetails s = (AadharDetails)itr.next();
-		out.println("Details: <BR>");
-		out.println(s.getName());
+		out.println("Details: <BR>"+s.getName());
 
 	}
 	%>
